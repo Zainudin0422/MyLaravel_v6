@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/registrasi', function () {
+    return view('form');
+});
+
+Route::get('/welcome', function () {
+    return view('welcomeregis');
+});
